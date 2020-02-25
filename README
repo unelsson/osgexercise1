@@ -1,0 +1,8 @@
+This is an OSG exercise to render stuff on screen
+
+BUILD
+mkdir build
+cmake ../
+make 
+
+or last one alternatively: make -j`getconf _NPROCESSORS_ONLN` 
